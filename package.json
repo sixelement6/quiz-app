@@ -1,0 +1,23 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "These projects have the propose to help me learn Javascript when i have free time between an projet and another.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sixelement6/quiz-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sixelement6/quiz-app/issues"
+  },
+  "homepage": "https://github.com/sixelement6/quiz-app#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
