@@ -1,0 +1,1 @@
+These projects have the propose to help me learn Javascript when i have free time between an projet and another.
