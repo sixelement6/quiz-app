@@ -116,19 +116,19 @@ submitBtn.addEventListener("click", () => {
 
             if (score == 6) {
                 quiz.innerHTML = `<h2>Você teve  
-                ${score} Respostas corretas de ${quizData.length}! Acertou todas parabéns!!</h2>
+                ${score} Respostas corretas de ${quizData.length}! Acertou todas parabéns!! Já posso levar meus documentos no RH?</h2>
                 
                 <button onclick="location.reload()">Reiniciar Quiz</button>`
             }
             if (score == 5) {
                 quiz.innerHTML = `<h2>Você teve  
-                ${score} Respostas corretas de ${quizData.length}! Tudo bem, você me conhece...</h2>
+                ${score} Respostas corretas de ${quizData.length}! Uau! Vamos marcar uma Entrevista :D</h2>
                 
                 <button onclick="location.reload()">Reiniciar Quiz</button>`
             }
             if (score < 4) {
                 quiz.innerHTML = `<h2>Você teve  
-                ${score} Respostas corretas de ${quizData.length}! Você ainda não me conhece...</h2>
+                ${score} Respostas corretas de ${quizData.length}! Mas não tem problema. O que acha de marcarmos uma reunião para me conhecer melhor?</h2>
                 
                 <button onclick="location.reload()">Reiniciar Quiz</button>`
             }
