@@ -126,7 +126,7 @@ submitBtn.addEventListener("click", () => {
                 
                 <button onclick="location.reload()">Reiniciar Quiz</button>`
             }
-            if (score < 4) {
+            if (score <= 4) {
                 quiz.innerHTML = `<h2>Você teve  
                 ${score} Respostas corretas de ${quizData.length}! Mas não tem problema. O que acha de marcarmos uma reunião para me conhecer melhor?</h2>
                 
